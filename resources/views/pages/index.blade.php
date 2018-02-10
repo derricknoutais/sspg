@@ -23,11 +23,11 @@
     					<a class="nav-link" href="#services">Services</a>
     				</li>
     				<li class="nav-item">
-    					<a class="nav-link" href="#">Prix</a>
+    					<a class="nav-link" href="#team">Notre Équipe</a>
     				</li>
-    				<li class="nav-item">
-    					<a class="nav-link disabled" href="#" title="Cette option n'est pas disponible pour le moment.">Créer un compte</a>
-    				</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactez-nous</a>
+                    </li>
     			</ul>
     		</div>
     	</nav>
@@ -51,7 +51,7 @@
             <div class="col-md-6 text-center col-xs-12">
                 <img src="{{ asset('images/francis.png') }}" class="team-picture" id="francis">
                 <h3 class="mt-3">Francis Ngoye</h3>
-                <h5>Directeur Général Academia Pro</h5>
+                <h5>Directeur Général Adjoint</h5>
                 <h6>PhD en Pétrochimie / Prof d'université</h6>
             </div>
         </div>
