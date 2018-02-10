@@ -33,7 +33,7 @@
     	</nav>
     	<h1 class="text-center "><span class="bg-dark">Société des Services de Proximité du Gabon</span></h1>
     	<div class="col-md-12 text-center">
-    		<button class="btn " id="call-to-action">Commander Maintenant</button>
+    		<button class="btn " id="call-to-action"><a href="#contact">Contactez-Nous</a></button>
     	</div>
     </header>
     @include('partials.serviceCards')
@@ -44,7 +44,7 @@
         <div class="row" id="team-pictures">
             <div class="col-md-6 text-center col-xs-12">
                 <img src="{{ asset('images/ornellia.png') }}" class="team-picture" id="ornellia">
-                <h3 class="mt-3">Ornellia Onzanga</h3>
+                <h3 class="mt-3">Ornellia Ozenga</h3>
                 <h5>Directrice Générale</h5>
                 <h6>Master en Pétrochimie</h6>
             </div>
@@ -62,7 +62,6 @@
                 <h3 class="text-center">Contact</h3>
             </div>
         </div>
-
         <div class="col-md-12" id="map"></div>
         <script>
           function initMap() {
@@ -85,7 +84,6 @@
             </div>
         </div>
     </section>
-
     <footer class="footer bg-dark">
         <div class="container-fluid">
             <div class="row">
@@ -109,9 +107,9 @@
             </div>
         </div>
     </footer>
-        <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9VYUmTh8J7rx9_tibRPX67Z3wWMvmRi8&callback=initMap">
-        </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9VYUmTh8J7rx9_tibRPX67Z3wWMvmRi8&callback=initMap">
+    </script>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html>
