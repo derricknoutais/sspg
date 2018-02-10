@@ -1,0 +1,162 @@
+//@import "variables";
+a{
+    color:$sunny;
+    &:hover{ color:$main-color; text-decoration: none; font-weight: bold};
+}
+.navbar-brand {
+    font-size:16pt;
+}
+.nav-item {
+    font-size:16pt;
+    color:$sunny;
+}
+header {
+    padding-top:45vh;
+    overflow:auto;
+    color:$sunny;
+    width:100%;
+    height:90vh;
+    background-image:url('https://s2-ssl.dmcdn.net/m39Nv.jpg');
+    h1{
+        color:white;
+        display: block;
+        font-weight:bold;
+        font-size:36pt;
+
+        span {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+    }
+    h5{
+        font-size:24pt;
+    }
+    @media screen and (max-width: 768px) {
+        h1{
+            display: block;
+            color:white;
+            font-weight:bold;
+            font-size:28pt;
+            padding-top:20vh;
+            span {
+                padding-left: 0.2em;
+                padding-right: 0.2em;
+            }
+        }
+        #call-to-action{
+            background:transparent;
+            font-size:12pt;
+            border: 2px solid black;
+            &:hover{ border: 1px solid black; font-size:12.25pt; };
+        }
+    }
+    @media screen and (max-width: 992px) {
+        h1{
+            display: block;
+            color:white;
+            font-weight:bold;
+            font-size:36pt;
+            padding-top:20vh;
+            span {
+                padding-left: 0.2em;
+                padding-right: 0.2em;
+            }
+        }
+        #call-to-action{
+            background:transparent;
+            font-size:12pt;
+            border: 2px solid black;
+            &:hover{ border: 1px solid black; font-size:12.25pt; };
+        }
+    }
+
+}
+#call-to-action{
+    background:transparent;
+    font-size:16pt;
+    border: 2px solid black;
+    &:hover{ border: 1px solid black; font-size:16.5pt; };
+}
+
+#services {
+    padding-top: 3em;
+    @media screen and (min-width: 768px){
+        padding:2.5em 2.5em 2.5em 2.5em;
+    }
+    @media screen and (min-width: 992px){
+        padding:2.5em 5em 2.5em 5em;
+    }
+    @media screen and (min-width: 1200px){
+        padding:5em 10em 5em 10em;
+    }
+    text-align: center;
+    color:$white;
+    h3 {
+        font-size:18pt;
+        font-weight: bold;
+    }
+    p{
+        font-size: 14pt;
+    }
+    .card-icon{
+        color:$sunny;
+        padding-bottom: 3vh;
+    }
+}
+#rr{
+    background-color: $white;
+    width:100%;
+    height:30vh;
+    background-image:url('https://scontent.ffjr1-3.fna.fbcdn.net/v/t31.0-8/13925487_994062960706588_2950132448123099137_o.jpg?_nc_fx=ffjr1-3&oh=3ba187ce678a59219aa181d1abe98b86&oe=5B18B630');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+#about{
+    color: $white;
+    width:100%;
+    height:100em;
+    p{
+        font-size: 16pt;
+    }
+}
+#team{
+    padding:5em;
+    color:$white;
+    h2 {
+        font-size: 32pt;
+    }
+    #team-pictures{
+    }
+    .team-picture{
+        margin-top:3em;
+        border:1px solid black;
+        border-radius: 100%;
+        width: 40%;
+        height:auto;
+    }
+    #francis{
+        width: 42.27%;
+    }
+}
+#contact{
+    h3{
+        font-size: 32pt;
+    }
+}
+#map {
+    width: 100%;
+    height:50vh;
+}
+footer{
+    color:$white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    p{
+        font-size:16pt;
+    }
+}
+.social{
+    margin:1em;
+}
