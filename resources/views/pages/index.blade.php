@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Services de Proximité Gabon</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 <body>
@@ -33,7 +33,7 @@
     	</nav>
     	<h1 class="text-center "><span class="bg-dark">Société des Services de Proximité du Gabon</span></h1>
     	<div class="col-md-12 text-center">
-    		<button class="btn " id="call-to-action"><a href="#contact">Contactez-Nous</a></button>
+    		<button class="btn" id="call-to-action"><a href="#contact">Contactez-Nous</a></button>
     	</div>
     </header>
     @include('partials.serviceCards')
@@ -107,6 +107,7 @@
             </div>
         </div>
     </footer>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9VYUmTh8J7rx9_tibRPX67Z3wWMvmRi8&callback=initMap">
     </script>

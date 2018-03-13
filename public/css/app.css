@@ -10102,6 +10102,10 @@ header h5 {
   border: 2px solid black;
 }
 
+#call-to-action a {
+  color: white;
+}
+
 #call-to-action:hover {
   border: 1px solid black;
   font-size: 16.5pt;
